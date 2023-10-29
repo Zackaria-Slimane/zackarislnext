@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<meta charset='utf-8' />
+				<meta charSet='utf-8' />
 				<link rel='icon' href='/favicon.ico' />
 				<link rel='canonical' href='https://zackariasl.dev' />
 				<link rel='manifest' href='/site.webmanifest' />
@@ -53,13 +53,13 @@ export default function App({ Component, pageProps }) {
 			{loading ? (
 				<Loader loading={loading} />
 			) : (
-				<>
+				<div className='h-auto min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
 					<Analytics />
 					<ToTop />
 					<NavBar active={path} setPath={setPath} />
 					<Component {...pageProps} />
 					<Footer />
-				</>
+				</div>
 			)}
 		</>
 	);
