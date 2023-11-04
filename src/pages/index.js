@@ -111,6 +111,7 @@ const Homepage = () => {
 										viewport={{ once: true }}>
 										<br />
 										<p className='text-justify'> {siteData.homePage.description}</p>
+										<p className='text-justify '> {siteData.homePage.cta}</p>
 									</motion.div>
 									<ContactCards />
 									<div className='mt-12'>

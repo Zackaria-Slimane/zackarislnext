@@ -35,7 +35,8 @@ const siteData = {
 		title:
 			"Dedicated full stack developer fluent in and React & Golang, crafting seamless digital experiences.",
 		description: `I am a full stack developer with a laser focus on JavaScript ES6 and the dynamic world of React for the front end and the efficient Golang for the back end.
-		I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future.
+	`,
+		cta: `I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future,
 		bringing to life seamless, interactive web experiences.`,
 	},
 
