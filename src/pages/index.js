@@ -67,7 +67,7 @@ const Homepage = () => {
 					<meta name='keywords' content={currentSEO.keywords.join(", ")} />
 				</Helmet>
 				<div className='page-content'>
-					<div className='max-w-[800px] m-auto sm:w-[90dvw] sm:px-8'>
+					<div className='max-w-[800px] mx-auto sm:w-[90dvw] px-8'>
 						<div
 							id='photo-div'
 							className='flex items-center justify-start pt-16 sm:py-12 '>
@@ -76,16 +76,18 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className='mt-12'>
-							<div className='flex justify-center items-center max-w-[800px] mx-auto'>
+						<div className='mt-12 max-w-[800px]'>
+							<div className='flex justify-center items-center  mx-auto'>
 								<div className='flex flex-col items-center p-4 sm:items-center'>
-									<div className='text-start text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
+									<div className='mx-auto text-start text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
 										Dedicated full stack developer crafting seamless digital experiences
 										with
 										<TypeAnimation
 											className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
 											sequence={[
 												"React",
+												1500,
+												"Next",
 												1500,
 												"Golang",
 												1500,
@@ -104,14 +106,14 @@ const Homepage = () => {
 										/>
 									</div>
 									<motion.div
-										className='w-full pt-2 my-4 text-base text-start text-navy sm:my-3'
+										className='w-full pt-2 px-2 my-4 text-base text-start text-navy sm:my-3 max-w-[800px]'
 										initial={{ opacity: 0, x: -200 }}
 										transition={{ duration: 1 }}
 										whileInView={{ opacity: 1, x: 0 }}
 										viewport={{ once: true }}>
 										<br />
 										<p className='text-justify'> {siteData.homePage.description}</p>
-										<p className='text-justify '> {siteData.homePage.cta}</p>
+										<p className='text-justify'> {siteData.homePage.cta}</p>
 									</motion.div>
 									<ContactCards />
 									<div className='mt-12'>
