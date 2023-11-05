@@ -12,6 +12,7 @@ import gittrackr from "../assets/featured/gittrackr.png";
 import gosql from "../assets/featured/gosql.png";
 import unfetch from "../assets/featured/unfetch.png";
 import clitask from "../assets/featured/clitask.png";
+import formify from "../assets/featured/formify.png";
 
 const uid = () => crypto.randomUUID();
 
@@ -75,7 +76,6 @@ const siteData = {
 			link: "https://github.com/Zackaria-Slimane/go-docker-ms",
 			featured: true,
 		},
-
 		{
 			id: uid(),
 			title: "unFetch - Search image wrapper",
@@ -84,6 +84,16 @@ const siteData = {
 			logo: unfetch,
 			linkText: "View Project",
 			link: "https://unfetch.vercel.app/",
+			featured: false,
+		},
+		{
+			id: uid(),
+			title: "SaaS product Landing page",
+			description: "Landing page for a SaaS product",
+			tech: react,
+			logo: formify,
+			linkText: "View Project",
+			link: "https://formifi.vercel.app/",
 			featured: false,
 		},
 		{
