@@ -1,9 +1,8 @@
 import "../styles/globals.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Loader from "src/components/UI/Loader";
 import NavBar from "src/components/UI/NavBar";
 import ToTop from "src/components/UI/ToTop";
 import Footer from "src/components/UI/Footer";
@@ -11,15 +10,6 @@ import Footer from "src/components/UI/Footer";
 export default function App({ Component, pageProps }) {
 	const { pathname } = useRouter();
 	const [path, setPath] = useState(pathname);
-	const [loading, setLoading] = useState(true);
-
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			setLoading(false);
-		}, 1000);
-
-		return () => clearTimeout(timer);
-	}, []);
 
 	return (
 		<>
@@ -50,17 +40,13 @@ export default function App({ Component, pageProps }) {
 					Zackaria Slimane - Full Stack Developer | React | Golang | Vue & Nuxt
 				</title>
 			</Head>
-			{loading ? (
-				<Loader loading={loading} />
-			) : (
-				<div className='h-auto min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
-					<Analytics />
-					<ToTop />
-					<NavBar active={path} setPath={setPath} />
-					<Component {...pageProps} />
-					<Footer />
-				</div>
-			)}
+			<main className='h-auto min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
+				<Analytics />
+				<ToTop />
+				<NavBar active={path} setPath={setPath} />
+				<Component {...pageProps} />
+				<Footer />
+			</main>
 		</>
 	);
 }
