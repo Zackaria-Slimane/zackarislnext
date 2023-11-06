@@ -76,14 +76,14 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className='mt-12 max-w-[800px]'>
-							<div className='flex justify-center items-center  mx-auto'>
-								<div className='flex flex-col items-center p-4 sm:items-center'>
-									<div className='mx-auto text-start text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
+						<div className='mt-12 w-full sm:max-w-[800px]'>
+							<div className='flex justify-center items-center mx-auto'>
+								<div className='flex flex-col items-center p-2 sm:p-4 sm:items-center'>
+									<div className='mx-auto text-start sm:text-start text-2xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
 										Dedicated full stack developer crafting seamless digital experiences
-										with
+										<br className='sm:hidden' /> with
 										<TypeAnimation
-											className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
+											className='px-2 py-0 ml-2 text-2xl sm:text-3xl rounded-sm bg-cream'
 											sequence={[
 												"React",
 												1500,
@@ -106,7 +106,7 @@ const Homepage = () => {
 										/>
 									</div>
 									<motion.div
-										className='w-full pt-2 px-2 my-4 text-base text-start text-navy sm:my-3 max-w-[800px]'
+										className='pt-2 px-0 sm:px-2 sm:my-4 text-base text-start text-navy w-full sm:max-w-[800px]'
 										initial={{ opacity: 0, x: -200 }}
 										transition={{ duration: 1 }}
 										whileInView={{ opacity: 1, x: 0 }}
