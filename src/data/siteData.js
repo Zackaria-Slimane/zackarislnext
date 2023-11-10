@@ -104,7 +104,7 @@ const siteData = {
 			logo: formify,
 			linkText: "View Project",
 			link: "https://formifi.vercel.app/",
-			featured: false,
+			featured: true,
 		},
 		{
 			id: uid(),
