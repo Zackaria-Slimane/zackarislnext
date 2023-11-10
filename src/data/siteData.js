@@ -6,6 +6,7 @@ import wordpress from "../assets/techs/wordpressicon.png";
 import coinbend from "../assets/featured/coinbend.png";
 import cvforge from "../assets/featured/cvforge.png";
 import bm from "../assets/featured/beautymall.png";
+import pennysense from "../assets/featured/pennysense.png";
 import echelon from "../assets/featured/echelon.png";
 import gittrackr from "../assets/featured/gittrackr.png";
 import gosql from "../assets/featured/gosql.png";
@@ -73,6 +74,16 @@ const siteData = {
 			logo: gosql,
 			linkText: "View Project",
 			link: "https://github.com/Zackaria-Slimane/go-docker-ms",
+			featured: true,
+		},
+		{
+			id: uid(),
+			title: "Penny sense - budgeting app",
+			description: "Personal finance and budgeting app",
+			tech: react,
+			logo: pennysense,
+			linkText: "View Project",
+			link: "https://pennysense.vercel.app/",
 			featured: true,
 		},
 		{
