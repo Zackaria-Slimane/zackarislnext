@@ -17,7 +17,7 @@ const Work = () => {
 							transition={{ duration: 1 }}
 							whileInView={{ opacity: 1, x: 0 }}
 							viewport={{ once: true }}
-							className='flex flex-wrap content-center justify-center gap-2 mt-4 mb-6 align-middle sm:justify-evenly'>
+							className='flex flex-wrap content-center justify-center gap-2 mt-4 mb-6 align-middle sm:justify-between'>
 							<Link
 								href={work.link}
 								target='_blank'
