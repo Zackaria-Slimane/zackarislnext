@@ -13,49 +13,13 @@ import siteData from "../data/siteData";
 import SEO from "../data/seo";
 
 const Homepage = () => {
-	const [keepVisible, setKeepVisible] = useState(false);
-	const [logoSize, setLogoSize] = useState(80);
-	const [oldLogoSize, setOldLogoSize] = useState(80);
 	const [isFeatured, setIsFeatured] = useState(true);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	useEffect(() => {
-		const handleScroll = () => {
-			let scroll = Math.round(window.scrollY, 2);
-			let newLogoSize = 50 - (scroll * 4) / 10;
-
-			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 40) {
-					setLogoSize(newLogoSize);
-					setOldLogoSize(newLogoSize);
-					setKeepVisible(false);
-				} else {
-					setKeepVisible(true);
-				}
-			} else {
-				setLogoSize(newLogoSize);
-				setKeepVisible(false);
-			}
-		};
-
-		window.addEventListener("scroll", handleScroll);
-		return () => window.removeEventListener("scroll", handleScroll);
-	}, [logoSize, oldLogoSize]);
-
 	const currentSEO = SEO.find((item) => item.page === "home");
-
-	const logoStyle = {
-		display: keepVisible ? "flex" : "none",
-		position: keepVisible ? "fixed" : "relative",
-		top: keepVisible ? "3vh" : "auto",
-		zIndex: 999,
-		border: keepVisible ? "1px solid white" : "none",
-		borderRadius: keepVisible ? "50%" : "none",
-		boxShadow: keepVisible ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
-	};
 
 	return (
 		<>
@@ -68,14 +32,6 @@ const Homepage = () => {
 				</Helmet>
 				<div className='page-content'>
 					<div className='max-w-[800px] mx-auto sm:w-[90dvw] px-8'>
-						<div    style='display :none !important'
-							id='photo-div'
-							className='tw-hidden items-center justify-start pt-16 sm:py-12 '>
-							<div style={logoStyle}>
-								<Logo width={logoSize} link={false} />
-							</div>
-						</div>
-
 						<div className='mt-12 w-full sm:max-w-[800px]'>
 							<div className='flex justify-center items-center mx-auto'>
 								<div className='flex flex-col items-center p-2 sm:p-4 sm:items-center'>
