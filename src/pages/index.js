@@ -68,9 +68,9 @@ const Homepage = () => {
 				</Helmet>
 				<div className='page-content'>
 					<div className='max-w-[800px] mx-auto sm:w-[90dvw] px-8'>
-						<div
+						<div 
 							id='photo-div'
-							className='flex items-center justify-start pt-16 sm:py-12 '>
+							className='tw-hidden items-center justify-start pt-16 sm:py-12 '>
 							<div style={logoStyle}>
 								<Logo width={logoSize} link={false} />
 							</div>
