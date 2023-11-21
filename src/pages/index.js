@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
 import { MdSwipeDownAlt } from "react-icons/md";
-
-import Logo from "../components/UI/Logo";
 import Works from "../components/UI/WorkCard";
 import AllProjects from "../components/projects/allProjects";
 import { ContactCards } from "../components/UI/ContactCards";
@@ -30,11 +28,12 @@ const Homepage = () => {
 					<link rel='canonical' href='https://zackariasl.dev' />
 					<meta name='keywords' content={currentSEO.keywords.join(", ")} />
 				</Helmet>
+
 				<div className='page-content'>
-					<div className='max-w-[800px] mx-auto sm:w-[90dvw] px-8'>
+					<div className='max-w-[800px] mx-auto sm:w-[90dvw]  px-8'>
 						<div className='mt-12 w-full sm:max-w-[800px]'>
 							<div className='flex justify-center items-center mx-auto'>
-								<div className='flex flex-col items-center p-2 sm:p-4 sm:items-center'>
+								<div className='flex mt-8 sm:mt-24 flex-col items-center p-2 sm:p-4 sm:items-center'>
 									<div className='mx-auto text-start sm:text-start text-2xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
 										Dedicated full stack developer crafting seamless digital experiences
 										<br className='sm:hidden' /> with
