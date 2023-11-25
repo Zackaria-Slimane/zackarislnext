@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -46,9 +46,6 @@ const Contact = () => {
 			.catch((error) => console.log("Form submit error", error))
 			.finally(() => resetForm());
 	};
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
 

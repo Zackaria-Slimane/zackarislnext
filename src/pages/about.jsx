@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
@@ -10,10 +9,6 @@ import SEO from "../data/seo";
 import { ContactCards } from "../components/UI/ContactCards";
 
 const About = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-
 	const currentSEO = SEO.find((item) => item.page === "about");
 
 	return (

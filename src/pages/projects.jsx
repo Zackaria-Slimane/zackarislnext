@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
@@ -9,10 +8,6 @@ import SEO from "../data/seo";
 import AllProjects from "../components/projects/allProjects";
 
 const Projects = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-
 	const currentSEO = SEO.find((item) => item.page === "projects");
 
 	return (

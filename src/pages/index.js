@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
@@ -12,11 +12,6 @@ import SEO from "../data/seo";
 
 const Homepage = () => {
 	const [isFeatured, setIsFeatured] = useState(true);
-
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-
 	const currentSEO = SEO.find((item) => item.page === "home");
 
 	return (
@@ -35,7 +30,8 @@ const Homepage = () => {
 							<div className='flex justify-center items-center mx-auto'>
 								<div className='flex mt-8 sm:mt-24 flex-col items-center p-2 sm:p-4 sm:items-center'>
 									<div className='mx-auto text-start sm:text-start text-2xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-										Dedicated full stack developer crafting seamless digital experiences
+										Full stack developer, devOps & Cloud enthousiast crafting seamless
+										digital experiences
 										<br className='sm:hidden' /> with
 										<TypeAnimation
 											className='px-2 py-0 ml-2 text-2xl sm:text-3xl rounded-sm bg-cream'

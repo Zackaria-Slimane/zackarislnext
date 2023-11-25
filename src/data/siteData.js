@@ -25,11 +25,10 @@ const siteData = {
 		logo: zs,
 	},
 	socials: {
-		twitter: "https://twitter.com/gitignorer",
 		github: "https://github.com/Zackaria-Slimane",
 		linkedin: "https://www.linkedin.com/in/zackaria-slimane/",
 		resume:
-			"https://drive.google.com/file/d/1X3SEKVVXQYEHoVZXWQ45K4WaAx64CHzA/view?usp=sharing",
+			"https://drive.google.com/file/d/1-5RS2leyJaOUONzKIdIwZwYuT_QHm4ND/view?usp=drive_link",
 	},
 
 	homePage: {
