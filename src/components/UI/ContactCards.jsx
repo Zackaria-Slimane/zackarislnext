@@ -7,7 +7,7 @@ export function ContactCards() {
 		<div className='flex items-center justify-between gap-6 pt-8'>
 			<div>
 				<Link
-					href='https://drive.google.com/file/d/1-5RS2leyJaOUONzKIdIwZwYuT_QHm4ND/view?usp=drive_link'
+					href='https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing'
 					target='_blank'
 					rel='noreferrer noopener'
 					className='flex items-center justify-center px-6 py-2 transition-colors bg-transparent border-2 rounded-lg shadow-lg hover:border-cream border-navy hover:bg-darkpink hover:text-white hover:scale-110'>

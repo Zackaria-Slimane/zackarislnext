@@ -28,7 +28,7 @@ const siteData = {
 		github: "https://github.com/Zackaria-Slimane",
 		linkedin: "https://www.linkedin.com/in/zackaria-slimane/",
 		resume:
-			"https://drive.google.com/file/d/1-5RS2leyJaOUONzKIdIwZwYuT_QHm4ND/view?usp=drive_link",
+			"https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing",
 	},
 
 	homePage: {
