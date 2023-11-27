@@ -25,7 +25,7 @@ const Homepage = () => {
 				</Helmet>
 
 				<div className='page-content'>
-					<div className='max-w-[800px] mx-auto sm:w-[90dvw]  px-8'>
+					<div className='max-w-[800px] mx-auto sm:w-[90dvw] px-8'>
 						<div className='mt-12 w-full sm:max-w-[800px]'>
 							<div className='flex justify-center items-center mx-auto'>
 								<div className='flex mt-8 sm:mt-24 flex-col items-center p-2 sm:p-4 sm:items-center'>

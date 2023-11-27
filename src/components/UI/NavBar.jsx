@@ -3,7 +3,7 @@ import Link from "next/link";
 const NavBar = ({ active, setPath }) => {
 	return (
 		<div className='flex items-center justify-center m-0'>
-			<nav className='flex justify-center items-center fixed z-[999] top-[3vh] sm:w-4/5 sm:text-md sm:mx-[25%]'>
+			<nav className='flex justify-center items-center fixed z-[999] top-6 sm:w-4/5 sm:text-md sm:mx-[25%]'>
 				<div className='sm:w-2/5 mx-auto w-[280px] h-10 shadow-[0px_2px_10px_rgba(0,0,0,0.1)] px-[0%] rounded-full bg-transparent backdrop-blur-zs'>
 					<ul className='flex justify-around items-center mx-auto mt-[11px] list-none'>
 						<li

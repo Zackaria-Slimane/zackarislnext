@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }) {
 					Zackaria Slimane - Full Stack Developer | React | Golang | Vue & Nuxt
 				</title>
 			</Head>
-			<main className='h-auto min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
+			<main className='h-auto sm:min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
 				<Analytics />
 				<ToTop />
 				<NavBar active={path} setPath={setPath} />

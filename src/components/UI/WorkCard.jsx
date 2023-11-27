@@ -9,7 +9,7 @@ const Work = () => {
 			id='works'
 			title='Work History'
 			subtitle="Here's what i have been up to so far:">
-			<ul role='list' className='max-w-[650px] w-4/5 mx-auto'>
+			<ul role='list' className='w-4/5 mx-auto'>
 				{WorkStore.map((work) => (
 					<li key={work.id}>
 						<motion.div
@@ -26,7 +26,7 @@ const Work = () => {
 								{work.position}
 							</Link>
 
-							<div className='flex gap-6'>
+							<div className='flex flex-col sm:flex-row gap-2 sm:gap-6'>
 								<p className='text-sm font-medium text-navy dark:text-peach'>
 									{work.name}{" "}
 								</p>
