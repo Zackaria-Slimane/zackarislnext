@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { useState } from "react";
-import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import NavBar from "src/components/UI/NavBar";
@@ -36,12 +36,10 @@ export default function App({ Component, pageProps }) {
 				/>
 				<link rel='apple-touch-icon' href='/apple-touch-icon.png' />
 				<link rel='manifest' href='/manifest.json' />
-				<title>
-					Zackaria Slimane - Full Stack Developer | React | Golang | Vue & Nuxt
-				</title>
+				<title>Zackaria Slimane - Full Stack Developer | React | Golang | Vue & Nuxt</title>
 			</Head>
 			<main className='h-auto sm:min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
-				<Analytics />
+				<SpeedInsights />
 				<ToTop />
 				<NavBar active={path} setPath={setPath} />
 				<Component {...pageProps} />

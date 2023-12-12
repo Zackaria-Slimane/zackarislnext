@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub, FaLinkedinIn, FaFileLines } from "react-icons/fa6";
+import {  FaGithub, FaLinkedinIn, FaFileLines } from "react-icons/fa6";
 import siteData from "../../data/siteData";
 import Link from "next/link";
 
