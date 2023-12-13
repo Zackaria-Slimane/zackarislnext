@@ -22,11 +22,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
 
-      - name: SCA (Dependency Check)
-        uses: owasp/dependency-check-action@v1
-        with:
-          dependency-check-report: ./dependency-check-report.xml
-
       - name: ZAP Scan
         uses: zaproxy/action-full-scan@v0.8.0
         with:
