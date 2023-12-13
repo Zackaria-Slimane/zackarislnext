@@ -22,7 +22,10 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
 
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v2.1.1
+          
       - name: ZAP Scan
-        uses: zaproxy/action-full-scan@v0.8.0
+        uses: zaproxy/action-baseline@v0.10.0
         with:
-          target: 'https://www.zackariasl.dev/'
+          target: 'https://www.zackariasl.dev'
