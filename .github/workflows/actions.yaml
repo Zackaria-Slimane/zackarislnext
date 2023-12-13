@@ -22,7 +22,3 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
           
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.10.0
-        with:
-          target: 'https://www.zackariasl.dev'
