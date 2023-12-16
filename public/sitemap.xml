@@ -28,5 +28,6 @@
         <loc>https://zackariasl.dev/contact/</loc>
         <lastmod>2023-12-16</lastmod>
         <changefreq>always</changefreq>
+				<priority>0.5</priority>
     </url>
 </urlset>
