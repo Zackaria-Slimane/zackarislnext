@@ -1,3 +1,2 @@
-Disallow: /nogooglebot/
 User-agent: *
-Allow: /
+Disallow:
