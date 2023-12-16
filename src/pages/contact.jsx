@@ -59,7 +59,7 @@ const Contact = () => {
 				</Helmet>
 				<>
 					<Toaster />
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] sm:px-8 bg-powder'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-powder'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
 								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
@@ -100,9 +100,7 @@ const Contact = () => {
 								method='POST'>
 								<div className='w-full'>
 									<div className='flex flex-col gap-6'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>
-											name
-										</label>
+										<label className='py-2 text-sm font-light capitalize text-navy'>name</label>
 										<input
 											type='text'
 											name='name'
@@ -111,9 +109,7 @@ const Contact = () => {
 										/>
 									</div>
 									<div className='flex flex-col'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>
-											email
-										</label>
+										<label className='py-2 text-sm font-light capitalize text-navy'>email</label>
 										<input
 											type='text'
 											name='email'
@@ -122,9 +118,7 @@ const Contact = () => {
 										/>
 									</div>
 									<div className='flex flex-col'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>
-											message
-										</label>
+										<label className='py-2 text-sm font-light capitalize text-navy'>message</label>
 										<textarea
 											name='message'
 											rows='6'

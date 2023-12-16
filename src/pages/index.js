@@ -67,6 +67,7 @@ const Homepage = () => {
 										<p className='text-justify'> {siteData.homePage.cta}</p>
 									</motion.div>
 									<ContactCards />
+
 									<div className='mt-12'>
 										<a href='#projects'>
 											<MdSwipeDownAlt className='text-3xl text-navy animate-bounce hover:text-darkpink hover:scale-110' />
@@ -75,7 +76,7 @@ const Homepage = () => {
 								</div>
 							</div>
 
-							<div className='basis-[300px] pt-4 sm:basis-auto'>
+							<div className='pt-4'>
 								<AllProjects isFeatured={isFeatured} />
 							</div>
 

@@ -24,21 +24,23 @@ export default function App({ Component, pageProps }) {
 				<meta name='og:image' content='/zs.png' />
 				<meta
 					name='og:title'
-					content='Zackaria Slimane - Full Stack Developer | React | Golang | NodeJS | Vue | Nuxt'
+					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
-				<meta name='twitter:title' content='Zackaria SLIMANE - Full Stack Developer' />
+				<meta name='twitter:title' content='Zackaria SLIMANE - Software Developer' />
 				<meta
 					name='og:description'
-					content='Zackaria SLIMANE - Full Stack Developer | React | Golang | Docker | Nodejs | Vue | Nuxt'
+					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
 				<meta
 					name='description'
-					content='Zackaria SLIMANE - Full Stack Developer | React | Golang | Docker | Nodejs | Vue | Nuxt'
+					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
 				<link rel='apple-touch-icon' href='/apple-touch-icon.png' />
 				<link rel='manifest' href='/manifest.json' />
-				<title>Zackaria Slimane - Full Stack Developer | React | Golang | Vue & Nuxt</title>
+
+				<title>Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
 			</Head>
+
 			<main className='h-auto sm:min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
 				<SpeedInsights />
 				<Analytics />
