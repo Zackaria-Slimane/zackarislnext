@@ -18,20 +18,24 @@ const Projects = () => {
 					<meta name='description' content={currentSEO.description} />
 					<meta name='keywords' content={currentSEO.keywords.join(", ")} />
 				</Helmet>
+
 				<>
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] sm:px-8 bg-powder'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-powder'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start '>
 								<div className='text-start text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-									Problem Solving one Line at a Time,
+									Problem Solving one
 									<TypeAnimation
 										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
-										sequence={["building products", 1500, "delivering solutions.", 1500]}
+										sequence={["Line", 1500, "Idea", 1500]}
 										speed={30}
 										wrapper='span'
 										repeat={Infinity}
 									/>
+									<br />
+									at a time.
 								</div>
+
 								<motion.div
 									className='w-full py-2 text-base text-navy'
 									initial={{ opacity: 0, x: -200 }}

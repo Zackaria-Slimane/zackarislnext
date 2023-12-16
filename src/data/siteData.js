@@ -1,10 +1,8 @@
 import zs from "../assets/logos/zs.png";
-import nuxt from "../assets/techs/nuxticon.png";
 import react from "../assets/techs/reacticon.png";
 import golang from "../assets/techs/golang.png";
 import wordpress from "../assets/techs/wordpressicon.png";
 import terraform from "../assets/techs/terraform.png";
-import coinbend from "../assets/featured/coinbend.png";
 import cvforge from "../assets/featured/cvforge.png";
 import bm from "../assets/featured/beautymall.png";
 import pennysense from "../assets/featured/pennysense.png";
@@ -20,7 +18,7 @@ const uid = () => crypto.randomUUID();
 
 const siteData = {
 	main: {
-		title: "Zackaria Slimane - Software Developer | React | Golang | Docker | Nodejs | Nuxt | Vue.",
+		title: "Zackaria Slimane - Software Developer | React | Golang | Nodejs | DevOps & Cloud",
 		name: "Zackaria Slimane",
 		email: "zakaria.slimane@hotmail.fr",
 		logo: zs,
@@ -33,17 +31,26 @@ const siteData = {
 
 	homePage: {
 		title:
-			"Dedicated Software developer fluent in and React & Golang, crafting seamless digital experiences.",
-		description: `I am a Software developer with a laser focus on JavaScript ES6 and the dynamic world of React for the front end and the efficient Golang for the back end.
-	`,
-		cta: `I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future,
-		bringing to life seamless, interactive web experiences.`,
+			"Passionate Software Developer Fluent in React & Golang, Crafting Seamless Digital Experiences.",
+		description: `As a Software Developer, my expertise spans JavaScript ES6, React for the frontend, and the powerful Golang for efficient backend solutions. Beyond code, I'm a perpetual learner, collaborator, and a firm believer in technology's power to shape the future.`,
+		cta: `Excited about DevOps, Cloud Engineering, CI/CD automation, and AWS technologies, I bring innovation to life, creating interactive web experiences that surpass expectations.`,
 	},
 
 	projectsPage: {
 		title: "Problem Solving, One Line at a Time",
 		description: `Behind every project lies a challenge waiting to be conquered. Through meticulous problem-solving and creative thinking, I've transformed complex ideas into elegant solutions. These projects aren't just code; they're the product of determination, collaboration, and a relentless pursuit of excellence.`,
-		cta: "Whether you're seeking an innovative React application, a polished WordPress site, or any other web development endeavor, I'm ready to embark on a journey of innovation with you. Together, we'll turn your ideas into projects that not only meet your goals but exceed your expectations.",
+		cta: "Whether you're seeking an innovative React application, a polished WordPress site, or any other web development endeavor, I'm ready to embark on a journey of innovation with you. Together, we'll turn your ideas into projects that not only meet your goals but exceed your expectations. Let's integrate the power of DevOps and AWS to elevate your projects.",
+	},
+
+	aboutPage: {
+		title: "Crafting Digital Experiences with Passion and Precision",
+		description:
+			"With a strong foundation in JavaScript, Golang, and a modern touch with React, I craft user-centric websites that seamlessly blend functionality and aesthetics. My focus on DevOps and Cloud Engineering enhances my ability to create scalable and efficient solutions.",
+		why: "From the outset of my web development journey, I've been captivated by the transformative power of technology. Thriving on the thrill of crafting dynamic and user-friendly interfaces, I integrate DevOps practices to ensure seamless deployment and operations.",
+		learning:
+			"Continuous learning is at the heart of what I do, ensuring that I'm always at the forefront of industry trends and best practices, especially in DevOps, CI/CD automation, and AWS technologies.",
+		skills:
+			"My toolbox isn't limited to just JavaScript and React & Golang. I'm also well-versed in WordPress, Shopify, Node.js, and adept at integrating these technologies with DevOps and AWS for robust solutions.",
 	},
 
 	contactPage: {
@@ -53,16 +60,40 @@ const siteData = {
 		cta: "At the heart of every successful project is a conversation—a meeting of minds, ideas, and aspirations. Whether you're a fellow developer, a business owner seeking a new website, or anyone else with a vision for the digital realm, I'm here to help transform your dreams into reality.",
 	},
 
-	aboutPage: {
-		title: "Crafting Digital Experiences with Passion and Precision",
+	articlesPage: {
+		title: "Unveiling the World of Web Development, React, Golang, DevOps, and Cloud Engineering",
 		description:
-			"With a strong foundation in JavaScript , Golang and a modern touch with React, I craft user-centric websites that blend functionality and aesthetics seamlessly. Beyond the lines of code, I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future.",
-		why: "Ever since I started my journey in the world of web development, I've been captivated by the power of technology to transform ideas into interactive realities. I thrive on the thrill of crafting dynamic and user-friendly interfaces that seamlessly merge aesthetics with functionality.",
-		learning:
-			"I am often diving into the latest React concepts or exploring new ways to optimize user experiences. Continuous learning is at the heart of what I do, ensuring that I'm always at the forefront of industry trends and best practices.",
-		skills:
-			"My toolbox isn't limited to just JavaScript and React & Golang. I'm also well-versed in WordPress, Shopify and Nodejs among other technologies, harnessing their potential to build stunning websites that captivate audiences and drive results. From e-commerce solutions to content management systems, Ive got you covered.",
+			"Software development is a journey filled with endless opportunities for learning and growth. I'm excited to share my experiences with you.",
+		cta: "Dive into the articles, gain new perspectives, and elevate your tech expertise. Sharing your thoughts on an article, seeking advice? I'm just a message away.",
 	},
+
+	articles: [
+		{
+			id: uid(),
+			title: "Automating Infrastructure Deployment with Terraform (AWS example)",
+			link: "https://www.linkedin.com/posts/zackaria-slimane_devops-aws-terraform-activity-7141501700237848577-OvyE",
+		},
+		{
+			id: uid(),
+			title: "AWS EC2 Instance Setup and Secure CI/CD Pipeline with Jenkins",
+			link: "https://www.linkedin.com/posts/zackaria-slimane_devops-cicd-jenkins-activity-7132072448983748608--Ikf",
+		},
+		{
+			id: uid(),
+			title: "Building Your First CRUD App in Go: A Hands-On Tutorial",
+			link: "https://www.linkedin.com/posts/zackaria-slimane_go-golang-mysql-activity-7116526295160631296-lHnf",
+		},
+		{
+			id: uid(),
+			title: "Learning Golang , hands on : GitHub Issues Tracker with Go, React, and Docker",
+			link: "https://www.linkedin.com/posts/zackaria-slimane_docker-golang-activity-7113649172439838720-Jd1-",
+		},
+		{
+			id: uid(),
+			title: "React Ecosystem in 2023 - Brief overview",
+			link: "https://www.linkedin.com/posts/zackaria-slimane_reactdeveloper-reactjs-reactjsdeveloper-activity-7108381434226049024-v8aY",
+		},
+	],
 
 	projects: [
 		{
