@@ -7,7 +7,5 @@ echo "Removing the node_modules folder..."
 rm -rf node_modules
 echo "Installing dependencies ..."
 npm ci
-echo "Building static ..."
-npm run build
-npm run start
+npm run dev
 echo "Cleanup completed successfully."
