@@ -3,6 +3,7 @@ import nuxt from "../assets/techs/nuxticon.png";
 import react from "../assets/techs/reacticon.png";
 import golang from "../assets/techs/golang.png";
 import wordpress from "../assets/techs/wordpressicon.png";
+import terraform from "../assets/techs/terraform.png";
 import coinbend from "../assets/featured/coinbend.png";
 import cvforge from "../assets/featured/cvforge.png";
 import bm from "../assets/featured/beautymall.png";
@@ -13,13 +14,13 @@ import gosql from "../assets/featured/gosql.png";
 import unfetch from "../assets/featured/unfetch.png";
 import clitask from "../assets/featured/clitask.png";
 import formify from "../assets/featured/formify.png";
+import tf from "../assets/featured/tf.jpg";
 
 const uid = () => crypto.randomUUID();
 
 const siteData = {
 	main: {
-		title:
-			"Zackaria SLIMANE | Full Stack Developer | React | Golang | Docker | Nodejs | Nuxt | Vue.",
+		title: "Zackaria Slimane - Software Developer | React | Golang | Docker | Nodejs | Nuxt | Vue.",
 		name: "Zackaria Slimane",
 		email: "zakaria.slimane@hotmail.fr",
 		logo: zs,
@@ -27,14 +28,13 @@ const siteData = {
 	socials: {
 		github: "https://github.com/Zackaria-Slimane",
 		linkedin: "https://www.linkedin.com/in/zackaria-slimane/",
-		resume:
-			"https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing",
+		resume: "https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing",
 	},
 
 	homePage: {
 		title:
-			"Dedicated full stack developer fluent in and React & Golang, crafting seamless digital experiences.",
-		description: `I am a full stack developer with a laser focus on JavaScript ES6 and the dynamic world of React for the front end and the efficient Golang for the back end.
+			"Dedicated Software developer fluent in and React & Golang, crafting seamless digital experiences.",
+		description: `I am a Software developer with a laser focus on JavaScript ES6 and the dynamic world of React for the front end and the efficient Golang for the back end.
 	`,
 		cta: `I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future,
 		bringing to life seamless, interactive web experiences.`,
@@ -77,6 +77,16 @@ const siteData = {
 		},
 		{
 			id: uid(),
+			title: "Terraform AWS starter",
+			description: "Provisioning starter for AWS resources using Terraform",
+			tech: terraform,
+			logo: tf,
+			linkText: "View Project",
+			link: "https://github.com/Zackaria-Slimane/terraform-ec2",
+			featured: true,
+		},
+		{
+			id: uid(),
 			title: "Penny sense - budgeting app",
 			description: "Personal finance and budgeting app",
 			tech: react,
@@ -103,7 +113,7 @@ const siteData = {
 			logo: formify,
 			linkText: "View Project",
 			link: "https://formifi.vercel.app/",
-			featured: true,
+			featured: false,
 		},
 		{
 			id: uid(),
@@ -154,16 +164,6 @@ const siteData = {
 			tech: wordpress,
 			linkText: "View Project",
 			link: "https://beautymall.ma/",
-			featured: false,
-		},
-		{
-			id: uid(),
-			title: "Coinbend",
-			description: "Modern landing page for a budgeting app",
-			tech: nuxt,
-			logo: coinbend,
-			linkText: "View Project",
-			link: "https://coinbend.netlify.app/",
 			featured: false,
 		},
 	],

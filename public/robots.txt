@@ -1,4 +1,3 @@
 Disallow: /nogooglebot/
 User-agent: *
 Allow: /
-Sitemap: https://www.zackariasl.dev/sitemap.xml

@@ -30,8 +30,8 @@ const Homepage = () => {
 							<div className='flex justify-center items-center mx-auto'>
 								<div className='flex mt-8 sm:mt-24 flex-col items-center p-2 sm:p-4 sm:items-center'>
 									<div className='mx-auto text-start sm:text-start text-2xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-										Full stack developer, devOps & Cloud enthousiast crafting seamless
-										digital experiences
+										Software developer, devOps & Cloud enthousiast crafting seamless digital
+										experiences
 										<br className='sm:hidden' /> with
 										<TypeAnimation
 											className='px-2 py-0 ml-2 text-2xl sm:text-3xl rounded-sm bg-cream'
@@ -48,7 +48,7 @@ const Homepage = () => {
 												1500,
 												"Nuxt",
 												1500,
-												"Wordpress",
+												"AWS",
 												1500,
 											]}
 											speed={30}

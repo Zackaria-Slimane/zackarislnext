@@ -16,6 +16,9 @@ import next from "../assets/techs/nextjs.png";
 import githubActions from "../assets/techs/ga.png";
 import mysql from "../assets/techs/mysql.png";
 import postman from "../assets/techs/postman.svg";
+import aws from "../assets/techs/aws.png";
+import terraform from "../assets/techs/terraform.png";
+import jenkins from "../assets/techs/jenkins.png";
 
 let uid = () => crypto.randomUUID().slice(0, 18);
 
@@ -70,6 +73,21 @@ const Stacks = [
 		id: uid(),
 		image: docker,
 		title: "Docker",
+	},
+	{
+		id: uid(),
+		image: aws,
+		title: "AWS",
+	},
+	{
+		id: uid(),
+		image: terraform,
+		title: "Terraform",
+	},
+	{
+		id: uid(),
+		image: jenkins,
+		title: "Jenkins CICD",
 	},
 	{
 		id: uid(),
