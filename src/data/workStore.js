@@ -5,7 +5,7 @@ export const WorkStore = [
 		name: "Nuitee - Travel api",
 		position: "Full stack Developer",
 		from: "October 2022",
-		to: "Current.",
+		to: "January 2024",
 		link: "https://nuitee.com",
 	},
 	{
@@ -19,7 +19,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: "OMNIYAT",
-		position: "Junior front-end Developer",
+		position: "Front-end Developer",
 		from: "September 2021",
 		to: "May 2022.",
 		link: "https://www.omniyat.ma/en/",
