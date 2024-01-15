@@ -70,6 +70,11 @@ const siteData = {
 	articles: [
 		{
 			id: uid(),
+			title: "Jenkins DevOps: EC2 Automated Builds and Docker Deployments",
+			link: "https://www.linkedin.com/pulse/jenkins-devops-ec2-automated-builds-docker-zackaria-slimane--o59re",
+		},
+		{
+			id: uid(),
 			title: "Automating Infrastructure Deployment with Terraform (AWS example)",
 			link: "https://www.linkedin.com/posts/zackaria-slimane_devops-aws-terraform-activity-7141501700237848577-OvyE",
 		},

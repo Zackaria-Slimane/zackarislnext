@@ -3,7 +3,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: "CPL Network",
-		position: "Software Developer",
+		position: "Developer",
 		from: "January 2024",
 		to: "Current",
 		link: "https://www.cpl-network.com/",
@@ -11,7 +11,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: "Nuitee - Travel api",
-		position: "Software Developer",
+		position: "Full stack Developer",
 		from: "October 2022",
 		to: "January 2024",
 		link: "https://nuitee.com",
