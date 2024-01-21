@@ -1,6 +1,6 @@
 #!/bin/bash
-cd zackarislnext/
+cd zackarislnext/ || return
 git pull origin main
-npm ci
-npm build
-pm2 restart [zackaria-portfolio]
+npm ci &&
+	npm build &&
+	pm2 restart [zackaria-portfolio]
