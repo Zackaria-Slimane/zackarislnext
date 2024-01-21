@@ -2,8 +2,8 @@ let uid = () => crypto.randomUUID().slice(0, 18);
 export const WorkStore = [
 	{
 		id: uid(),
-		name: "CPL Network",
-		position: "Developer",
+		name: "CPLnetwork",
+		position: "Frontend Developer",
 		from: "January 2024",
 		to: "Current",
 		link: "https://www.cpl-network.com/",
@@ -27,7 +27,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: "OMNIYAT",
-		position: "Front-end Developer",
+		position: "Frontend Developer",
 		from: "September 2021",
 		to: "May 2022.",
 		link: "https://www.omniyat.ma/en/",
