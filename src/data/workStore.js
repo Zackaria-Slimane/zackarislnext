@@ -11,7 +11,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: "Nuitee - Travel api",
-		position: "Full stack Developer",
+		position: "Software Developer",
 		from: "October 2022",
 		to: "January 2024",
 		link: "https://nuitee.com",
