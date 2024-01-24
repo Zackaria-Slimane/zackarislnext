@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaLink } from "react-icons/fa6";
 
-const Project = (props) => {
+export function Project(props) {
 	const { logo, title, description, linkText, link, tech } = props;
 
 	return (
@@ -22,9 +22,7 @@ const Project = (props) => {
 					<div className='py-4 text-base font-semibold text-start font-jetBrain text-navy'>
 						{title}
 					</div>
-					<div className='text-darkpink text-start font-heebo text-clip'>
-						{description}
-					</div>
+					<div className='text-darkpink text-start font-heebo text-clip'>{description}</div>
 					<div className='my-4'>
 						<Image
 							width='300'
@@ -49,6 +47,4 @@ const Project = (props) => {
 			</Link>
 		</div>
 	);
-};
-
-export default Project;
+}

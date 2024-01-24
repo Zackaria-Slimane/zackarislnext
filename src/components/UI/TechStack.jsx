@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Section from "./Section";
 import stacks from "../../data/stackStore";
 
-const TechStack = () => {
+export function TechStack() {
 	return (
 		<Section id='skills' title='Skill Set' subtitle='My tech stack so far is '>
 			<motion.div
@@ -32,6 +32,4 @@ const TechStack = () => {
 			</motion.div>
 		</Section>
 	);
-};
-
-export default TechStack;
+}

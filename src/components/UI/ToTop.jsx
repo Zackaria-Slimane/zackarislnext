@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaAnglesUp } from "react-icons/fa6";
 
-const ToTop = () => {
+export function ToTop() {
 	const [showTopBtn, setShowTopBtn] = useState(false);
 
 	const handleScroll = () => {
@@ -31,6 +31,4 @@ const ToTop = () => {
 			<FaAnglesUp />
 		</button>
 	);
-};
-
-export default ToTop;
+}

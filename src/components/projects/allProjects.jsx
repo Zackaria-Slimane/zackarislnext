@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useMemo } from "react";
-import Project from "./Project";
+import { Project } from "./Project";
 import siteData from "../../data/siteData";
 import Section from "../UI/Section";
 import Toggle from "../UI/Toggle";
 
-const AllProjects = (props) => {
+export function AllProjects(props) {
 	const [isFeatured, setIsFeatured] = useState(props.isFeatured);
 
 	const ToggleFeatured = () => {
@@ -48,6 +48,4 @@ const AllProjects = (props) => {
 			</div>
 		</Section>
 	);
-};
-
-export default AllProjects;
+}
