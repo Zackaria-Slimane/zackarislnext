@@ -20,7 +20,7 @@ const siteData = {
 	main: {
 		title: "Zackaria Slimane - Software Developer | React | Golang | Nodejs | DevOps & Cloud",
 		name: "Zackaria Slimane",
-		email: "zakaria.slimane@hotmail.fr",
+		email: "slzackaria@gmail.com",
 		logo: zs,
 	},
 	socials: {
