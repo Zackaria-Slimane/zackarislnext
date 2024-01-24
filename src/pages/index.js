@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
 import { MdSwipeDownAlt } from "react-icons/md";
-import Works from "../components/UI/WorkCard";
-import AllProjects from "../components/projects/allProjects";
 import { ContactCards } from "../components/UI/ContactCards";
+import { Work } from "../components/UI/WorkCard";
+import { AllProjects } from "../components/projects/allProjects";
 
 import siteData from "../data/siteData";
 import SEO from "../data/seo";
@@ -82,7 +82,7 @@ const Homepage = () => {
 
 							<div className='flex justify-center'>
 								<div className='basis-[600px] sm:basis-auto pt-4 mx-auto w-full'>
-									<Works />
+									<Work />
 								</div>
 							</div>
 						</div>

@@ -3,12 +3,9 @@ import { motion } from "framer-motion";
 import { WorkStore } from "../../data/workStore";
 import Section from "./Section";
 
-const Work = () => {
+export function Work() {
 	return (
-		<Section
-			id='works'
-			title='Work History'
-			subtitle="Here's what i have been up to so far:">
+		<Section id='works' title='Work History' subtitle="Here's what i have been up to so far:">
 			<ul role='list' className='w-4/5 mx-auto'>
 				{WorkStore.map((work) => (
 					<li key={work.id}>
@@ -27,9 +24,7 @@ const Work = () => {
 							</Link>
 
 							<div className='flex flex-col sm:flex-row gap-2 sm:gap-6'>
-								<p className='text-sm font-medium text-navy dark:text-peach'>
-									{work.name}{" "}
-								</p>
+								<p className='text-sm font-medium text-navy dark:text-peach'>{work.name} </p>
 								<p className='text-sm text-navy dark:text-lavender'>
 									{work.from} - {work.to}
 								</p>
@@ -40,6 +35,4 @@ const Work = () => {
 			</ul>
 		</Section>
 	);
-};
-
-export default Work;
+}

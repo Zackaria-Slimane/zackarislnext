@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const NavBar = ({ active, setPath }) => {
+export function NavBar({ active, setPath }) {
 	return (
 		<div className='flex items-center justify-center m-0'>
 			<nav className='flex justify-center items-center fixed z-[999] top-6 sm:w-4/5 sm:text-md sm:mx-[25%]'>
@@ -78,6 +78,4 @@ const NavBar = ({ active, setPath }) => {
 			</nav>
 		</div>
 	);
-};
-
-export default NavBar;
+}

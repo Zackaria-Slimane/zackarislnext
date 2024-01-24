@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
-import TechStack from "../components/UI/TechStack";
-import Work from "../components/UI/WorkCard";
+import { TechStack } from "../components/UI/TechStack";
+import { Work } from "../components/UI/WorkCard";
+import { ContactCards } from "../components/UI/ContactCards";
 
 import siteData from "../data/siteData";
 import SEO from "../data/seo";
-import { ContactCards } from "../components/UI/ContactCards";
 
 const About = () => {
 	const currentSEO = SEO.find((item) => item.page === "about");
