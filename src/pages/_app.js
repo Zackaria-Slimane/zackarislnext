@@ -1,12 +1,12 @@
 import "../styles/globals.css";
+import Head from "next/head";
 import { useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { useRouter } from "next/router";
-import Head from "next/head";
-import NavBar from "src/components/UI/NavBar";
-import ToTop from "src/components/UI/ToTop";
-import Footer from "src/components/UI/Footer";
+import { NavBar } from "src/components/UI/NavBar";
+import { ToTop } from "src/components/UI/ToTop";
+import { Footer } from "src/components/UI/Footer";
 
 export default function App({ Component, pageProps }) {
 	const { pathname } = useRouter();

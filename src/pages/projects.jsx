@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
-
 import { ContactCards } from "../components/UI/ContactCards";
+import { AllProjects } from "../components/projects/allProjects";
 import siteData from "../data/siteData";
 import SEO from "../data/seo";
-import AllProjects from "../components/projects/allProjects";
 
 const Projects = () => {
 	const currentSEO = SEO.find((item) => item.page === "projects");
