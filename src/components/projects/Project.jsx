@@ -19,7 +19,7 @@ export function Project(props) {
 							/>
 						</div>
 						{/* image */}
-
+					</div>
 					<div className='py-4 text-base font-semibold text-start font-jetBrain text-navy'>
 						{title}
 					</div>
