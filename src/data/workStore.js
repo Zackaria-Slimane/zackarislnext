@@ -10,15 +10,15 @@ export const WorkStore = [
 	},
 	{
 		id: uid(),
-		name: "Nuitee - Travel api",
-		position: "Software Developer",
+		name: "Nuitee Travel api",
+		position: "Fullstack Developer",
 		from: "October 2022",
 		to: "January 2024",
 		link: "https://nuitee.com",
 	},
 	{
 		id: uid(),
-		name: "AD/HOC - Agency",
+		name: "AD/HOC Agency",
 		position: "Web Developer",
 		from: "May 2022",
 		to: "October 2023.",
