@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
+import { ContactCards } from "../components/UI/ContactCards";
 
 import siteData from "../data/siteData";
 import SEO from "../data/seo";
-import { ContactCards } from "../components/UI/ContactCards";
 
 const Contact = () => {
 	const nameRef = useRef(null);
