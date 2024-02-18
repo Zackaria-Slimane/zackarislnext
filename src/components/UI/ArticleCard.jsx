@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { FaLink } from "react-icons/fa6";
+import Link from 'next/link';
+import { FaLink } from 'react-icons/fa6';
 
 export function ArticleCard({ articles }) {
 	return (
-		<>
+		<section>
 			{articles.map((article) => (
 				<div
 					key={article.id}
@@ -16,16 +16,16 @@ export function ArticleCard({ articles }) {
 						className='flex items-center justify-start pt-4 text-sm hover:text-navy'
 						href={article.link}>
 						<div className='underline text-xs text-start text-darkpink hover:decoration-double decoration-2 decoration-darkpink truncate'>
-							{" "}
-							{article.link}{" "}
+							{' '}
+							{article.link}{' '}
 						</div>
 						<div className='pl-2 text-sm'>
-							{" "}
+							{' '}
 							<FaLink />
 						</div>
 					</Link>
 				</div>
 			))}
-		</>
+		</section>
 	);
 }
