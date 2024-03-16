@@ -20,7 +20,6 @@
 		"@vercel/speed-insights": "^1.0.1",
 		"framer-motion": "^10.16.1",
 		"next": "14.0.0",
-		"next-sitemap": "^4.2.3",
 		"react": "18.2",
 		"react-dom": "^18",
 		"react-helmet": "^6.1.0",
