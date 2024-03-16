@@ -1,12 +1,12 @@
-import "../styles/globals.css";
-import Head from "next/head";
-import { useState } from "react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react";
-import { useRouter } from "next/router";
-import { NavBar } from "src/components/UI/NavBar";
-import { ToTop } from "src/components/UI/ToTop";
-import { Footer } from "src/components/UI/Footer";
+import '../styles/globals.css';
+import Head from 'next/head';
+import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
+import { useRouter } from 'next/router';
+import { NavBar } from 'src/components/UI/NavBar';
+import { ToTop } from 'src/components/UI/ToTop';
+import { Footer } from 'src/components/UI/Footer';
 
 export default function App({ Component, pageProps }) {
 	const { pathname } = useRouter();
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
 				<title>Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
 			</Head>
 
-			<main className='h-auto sm:min-h-screen text-navy bg-powder dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
+			<main className='h-auto sm:min-h-screen text-navy bg-white dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
 				<SpeedInsights />
 				<Analytics />
 				<ToTop />

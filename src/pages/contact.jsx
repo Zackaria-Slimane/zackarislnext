@@ -1,13 +1,13 @@
-import { useRef } from "react";
-import toast, { Toaster } from "react-hot-toast";
-import { motion } from "framer-motion";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { TypeAnimation } from "react-type-animation";
-import { FaArrowRightFromBracket } from "react-icons/fa6";
-import { ContactCards } from "../components/UI/ContactCards";
+import { useRef } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
+import { motion } from 'framer-motion';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { TypeAnimation } from 'react-type-animation';
+import { FaArrowRightFromBracket } from 'react-icons/fa6';
+import { ContactCards } from '../components/UI/ContactCards';
 
-import siteData from "../data/siteData";
-import SEO from "../data/seo";
+import siteData from '../data/siteData';
+import SEO from '../data/seo';
 
 const Contact = () => {
 	const nameRef = useRef(null);
@@ -15,39 +15,39 @@ const Contact = () => {
 	const messageRef = useRef(null);
 
 	const notify = () => {
-		toast.success("Message sent! Thank you 🙏🏻", {
+		toast.success('Message sent! Thank you 🙏🏻', {
 			duration: 3000,
-			position: "top-right",
+			position: 'top-right',
 			ariaProps: {
-				role: "status",
-				"aria-live": "polite",
+				role: 'status',
+				'aria-live': 'polite',
 			},
 		});
 	};
 
 	const resetForm = () => {
-		nameRef.current.value = "";
-		mailRef.current.value = "";
-		messageRef.current.value = "";
+		nameRef.current.value = '';
+		mailRef.current.value = '';
+		messageRef.current.value = '';
 		notify();
 	};
 
 	const formSubmit = (e) => {
 		e.preventDefault();
 		const formData = new FormData(e.target);
-		fetch("https://getform.io/f/6b7547f9-bd94-4d3a-9d96-edbd80e61c89", {
-			method: "POST",
+		fetch('https://getform.io/f/6b7547f9-bd94-4d3a-9d96-edbd80e61c89', {
+			method: 'POST',
 			body: formData,
 			headers: {
-				Accept: "application/json",
+				Accept: 'application/json',
 			},
 		})
-			.then((response) => console.log("Form submit response", response))
-			.catch((error) => console.log("Form submit error", error))
+			.then((response) => console.log('Form submit response', response))
+			.catch((error) => console.log('Form submit error', error))
 			.finally(() => resetForm());
 	};
 
-	const currentSEO = SEO.find((item) => item.page === "contact");
+	const currentSEO = SEO.find((item) => item.page === 'contact');
 
 	return (
 		<>
@@ -55,18 +55,18 @@ const Contact = () => {
 				<Helmet>
 					<title>{`Contact | ${siteData.main.title}`}</title>
 					<meta name='description' content={currentSEO.description} />
-					<meta name='keywords' content={currentSEO.keywords.join(", ")} />
+					<meta name='keywords' content={currentSEO.keywords.join(', ')} />
 				</Helmet>
 				<>
 					<Toaster />
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-powder'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-white'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
 								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
 									Let's Turn your Ideas into reality with
 									<TypeAnimation
 										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
-										sequence={["Owrnership.", 1500, "Collaboration.", 1500]}
+										sequence={['Owrnership.', 1500, 'Collaboration.', 1500]}
 										speed={30}
 										wrapper='span'
 										repeat={Infinity}
@@ -90,7 +90,7 @@ const Contact = () => {
 							</div>
 						</div>
 
-						<div className='bg-powder mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
+						<div className='bg-white mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
 							<form
 								className='w-full p-6 text-left'
 								content='formdata'

@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { useMemo } from "react";
-import { Project } from "./Project";
-import siteData from "../../data/siteData";
-import Section from "../UI/Section";
-import Toggle from "../UI/Toggle";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { useMemo } from 'react';
+import { Project } from './Project';
+import siteData from '../../data/siteData';
+import Section from '../UI/Section';
+import Toggle from '../UI/Toggle';
 
 export function AllProjects(props) {
 	const [isFeatured, setIsFeatured] = useState(props.isFeatured);
@@ -14,7 +14,7 @@ export function AllProjects(props) {
 	};
 
 	let featuredProjects = siteData.projects.filter((project) => project.featured === true);
-	let subtitle = isFeatured ? "Featured Projects" : "All Projects";
+	let subtitle = isFeatured ? 'Featured Projects' : 'All Projects';
 
 	const getProjects = useMemo(() => {
 		return isFeatured ? featuredProjects : siteData.projects;
@@ -33,7 +33,7 @@ export function AllProjects(props) {
 						transition={{ duration: 1 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true }}
-						className='box-border overflow-hidden p-2.5 rounded-md shadow-xl bg-white'
+						className='p-8 rounded-md shadow-xl bg-white'
 						key={project.id}>
 						<Project
 							tech={project.tech}

@@ -1,11 +1,11 @@
-import siteData from "../data/siteData";
-import SEO from "../data/seo";
-import { motion } from "framer-motion";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { ArticleCard } from "@/components/UI/ArticleCard";
+import siteData from '../data/siteData';
+import SEO from '../data/seo';
+import { motion } from 'framer-motion';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { ArticleCard } from '@/components/UI/ArticleCard';
 
 const Articles = () => {
-	const currentSEO = SEO.find((item) => item.page === "articles");
+	const currentSEO = SEO.find((item) => item.page === 'articles');
 
 	return (
 		<>
@@ -13,10 +13,10 @@ const Articles = () => {
 				<Helmet>
 					<title>{`Articles | ${siteData.main.title}`}</title>
 					<meta name='description' content={currentSEO.description} />
-					<meta name='keywords' content={currentSEO.keywords.join(", ")} />
+					<meta name='keywords' content={currentSEO.keywords.join(', ')} />
 				</Helmet>
 				<>
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-powder'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-white'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
 								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
