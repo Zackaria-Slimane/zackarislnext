@@ -1,7 +1,5 @@
 {
-	"include": ["**/*", "**/*.jsx"],
 	"compilerOptions": {
-		"jsx": "react",
 		"paths": {
 			"@/*": ["./src/*"]
 		}

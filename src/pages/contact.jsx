@@ -63,7 +63,7 @@ const Contact = () => {
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
 								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-									Let's Turn your Ideas into reality with
+									Let&lsquo;s Turn your Ideas into reality with
 									<TypeAnimation
 										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
 										sequence={['Owrnership.', 1500, 'Collaboration.', 1500]}
