@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { FaAnglesUp } from 'react-icons/fa6';
 
 export function ToTop() {
@@ -11,11 +11,6 @@ export function ToTop() {
 			setShowTopBtn(false);
 		}
 	};
-
-	// useEffect(() => {
-	// 	window.addEventListener('scroll', handleScroll);
-	// 	return () => window.removeEventListener('scroll', handleScroll);
-	// }, []);
 
 	return (
 		<button
