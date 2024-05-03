@@ -3,7 +3,7 @@ export const WorkStore = [
 	{
 		id: uid(),
 		name: 'CPLnetwork',
-		position: 'Frontend Consultant Developer',
+		position: 'Frontend Developer',
 		from: 'January 2024',
 		to: 'Current',
 		link: 'https://www.cpl-network.com/',
