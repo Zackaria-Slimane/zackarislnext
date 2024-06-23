@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { WorkStore } from "../../data/workStore";
-import Section from "./Section";
+import Link from 'next/link';
+import { motion } from 'framer-motion';
+import { WorkStore } from '../../data/workStore';
+import Section from './Section';
 
 export function Work() {
 	return (
@@ -19,13 +19,13 @@ export function Work() {
 								href={work.link}
 								target='_blank'
 								rel='noopener noreferrer'
-								className='font-medium underline cursor-pointer hover:decoration-wavy text-darkpink dark:text-cream'>
+								className='font-medium underline cursor-pointer hover:decoration-wavy text-sunflower dark:text-cream'>
 								{work.position}
 							</Link>
 
 							<div className='flex flex-col sm:flex-row gap-2 sm:gap-6'>
-								<p className='text-sm font-medium text-navy dark:text-peach'>{work.name} </p>
-								<p className='text-sm text-navy dark:text-lavender'>
+								<p className='text-sm font-medium text-powder'>{work.name} </p>
+								<p className='text-sm text-powder'>
 									{work.from} - {work.to}
 								</p>
 							</div>

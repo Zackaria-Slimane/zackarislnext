@@ -21,13 +21,13 @@ const About = () => {
 				</Helmet>
 
 				<>
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-white'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-slate-900'>
 						<div className='flex justify-center items-center'>
 							<div className='flex flex-col items-center sm:items-start p-4 max-w-[660px]'>
-								<div className='text-justfiy text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
+								<div className='text-center text-3xl sm:text-4xl text-powder font-jetBrain font-bold w-full my-6 text-clip'>
 									Crafting Seamless Digital Experiences with
 									<TypeAnimation
-										className='bg-cream rounded-sm py-0 px-2 ml-2 text-3xl'
+										className='bg-navy rounded-sm py-0 px-2 ml-2 text-3xl'
 										sequence={['Passion', 1500, 'Precision', 1500]}
 										speed={30}
 										wrapper='span'
@@ -40,13 +40,13 @@ const About = () => {
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}
 									viewport={{ once: true }}>
-									<p className='text-justify py-2 text-base text-navy w-full'>
+									<p className='text-center py-2 text-base text-powder w-full'>
 										{siteData.aboutPage.description}
 									</p>
-									<p className='text-justify py-2 text-base text-navy w-full'>
+									<p className='text-center py-2 text-base text-powder w-full'>
 										{siteData.aboutPage.learning}
 									</p>
-									<p className='text-justify py-2 text-base text-navy w-full'>
+									<p className='text-center py-2 text-base text-powder w-full'>
 										{siteData.aboutPage.skills}
 									</p>
 								</motion.div>

@@ -59,13 +59,13 @@ const Contact = () => {
 				</Helmet>
 				<>
 					<Toaster />
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-white'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-slate-900'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
-								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
+								<div className='text-3xl sm:text-4xl text-powder text-center font-jetBrain font-bold w-full my-6 text-clip'>
 									Let&lsquo;s Turn your Ideas into reality with
 									<TypeAnimation
-										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-cream'
+										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-navy'
 										sequence={['Owrnership.', 1500, 'Collaboration.', 1500]}
 										speed={30}
 										wrapper='span'
@@ -74,7 +74,7 @@ const Contact = () => {
 								</div>
 
 								<motion.div
-									className='w-full py-2 text-base text-navy'
+									className='w-full py-2 text-base text-powder text-center'
 									initial={{ opacity: 0, x: -200 }}
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}
@@ -90,7 +90,7 @@ const Contact = () => {
 							</div>
 						</div>
 
-						<div className='bg-white mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
+						<div className='bg-slate-900 border-2 border-powder mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
 							<form
 								className='w-full p-6 text-left'
 								content='formdata'
@@ -99,35 +99,37 @@ const Contact = () => {
 								id='contanct-form'
 								method='POST'>
 								<div className='w-full'>
-									<div className='flex flex-col gap-6'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>name</label>
+									<div className='flex flex-col my-2'>
+										<label className='py-2 text-sm font-light capitalize text-powder'>name</label>
 										<input
 											type='text'
 											name='name'
 											ref={nameRef}
-											className='flex p-3 rounded-lg focus:outline-navy bg-cream'
+											className='flex p-3 rounded-lg focus:outline-navy bg-cream text-navy'
 										/>
 									</div>
-									<div className='flex flex-col'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>email</label>
+									<div className='flex flex-col my-2'>
+										<label className='py-2 text-sm font-light capitalize text-powder'>email</label>
 										<input
 											type='text'
 											name='email'
 											ref={mailRef}
-											className='flex p-3 rounded-lg focus:outline-navy bg-cream'
+											className='flex p-3 rounded-lg focus:outline-navy bg-cream text-navy'
 										/>
 									</div>
-									<div className='flex flex-col'>
-										<label className='py-2 text-sm font-light capitalize text-navy'>message</label>
+									<div className='flex flex-col my-2'>
+										<label className='py-2 text-sm font-light capitalize text-powder'>
+											message
+										</label>
 										<textarea
 											name='message'
 											rows='6'
 											ref={messageRef}
-											className='flex p-3 rounded-lg resize-y focus:outline-navy bg-cream'></textarea>
+											className='flex p-3 rounded-lg resize-y focus:outline-navy bg-cream text-navy'></textarea>
 									</div>
 								</div>
 								<div className='flex items-center justify-center'>
-									<button className='flex items-center justify-center py-2 mt-8 transition-colors border-2 rounded-lg shadow-lg cursor-pointer group hover:scale-110 hover:border-transparent border-navy bg-navy text-cream dark:hover:text-navy'>
+									<button className='flex items-center justify-center py-2 mt-8 transition-colors border-2 rounded-lg shadow-lg cursor-pointer group hover:scale-105 hover:border-transparent border-navy bg-navy text-powder'>
 										<p className='mx-2 text-sm font-light md:text-lg text-cream'>Send</p>
 										<span className='animate-pulse'>
 											<FaArrowRightFromBracket className='mx-4 font-semibold text-md' />

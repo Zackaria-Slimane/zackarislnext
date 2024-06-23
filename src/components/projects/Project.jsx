@@ -23,7 +23,7 @@ export function Project(props) {
 					<div className='py-4 text-base font-semibold text-start font-jetBrain text-navy'>
 						{title}
 					</div>
-					<div className='text-darkpink text-start font-heebo text-clip'>{description}</div>
+					<div className='text-navy text-start font-heebo text-clip'>{description}</div>
 					<div className='my-4'>
 						<Image
 							width='300'
@@ -35,12 +35,12 @@ export function Project(props) {
 						/>
 					</div>
 					<div className='flex items-end justify-evenly pt-4 text-sm hover:text-navy hover:scale-105'>
-						<div className='pl-4 font-semibold underline text-start text-darkpink hover:decoration-wavy decoration-2 decoration-darkpink'>
+						<div className='pl-4 font-semibold underline text-start text-navy hover:decoration-wavy decoration-2 decoration-navy'>
 							{' '}
 							{linkText}{' '}
 						</div>
 						<div className='flex items-center justify-start pt-4 text-sm hover:text-navy hover:scale-105'>
-							<div className='pl-4 font-semibold underline text-start text-darkpink hover:decoration-wavy decoration-2 decoration-darkpink'>
+							<div className='pl-4 font-semibold underline text-start text-navy hover:decoration-wavy decoration-2 decoration-navy'>
 								{' '}
 								{linkText}{' '}
 							</div>

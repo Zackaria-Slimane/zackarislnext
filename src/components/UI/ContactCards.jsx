@@ -1,6 +1,6 @@
-import {  FaGithub, FaLinkedinIn, FaFileLines } from "react-icons/fa6";
-import siteData from "../../data/siteData";
-import Link from "next/link";
+import { FaGithub, FaLinkedinIn, FaFileLines } from 'react-icons/fa6';
+import siteData from '../../data/siteData';
+import Link from 'next/link';
 
 export function ContactCards() {
 	return (
@@ -10,7 +10,7 @@ export function ContactCards() {
 					href='https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing'
 					target='_blank'
 					rel='noreferrer noopener'
-					className='flex items-center justify-center px-6 py-2 transition-colors bg-transparent border-2 rounded-lg shadow-lg hover:border-cream border-navy hover:bg-darkpink hover:text-white hover:scale-110'>
+					className='flex items-center justify-center px-6 py-2 transition-colors bg-slate-900 rounded-lg hover:text-sunflower hover:scale-105'>
 					<span>
 						<FaFileLines className='text-sm font-light md:text-lg' />
 					</span>
@@ -19,12 +19,12 @@ export function ContactCards() {
 			</div>
 			<div>
 				<Link href={siteData.socials.github} target='_blank' rel='noreferrer noopener'>
-					<FaGithub className='text-xl text-navy hover:text-darkpink hover:scale-110' />
+					<FaGithub className='text-xl text-powder hover:text-sunflower hover:scale-110' />
 				</Link>
 			</div>
 			<div>
 				<Link href={siteData.socials.linkedin} target='_blank' rel='noreferrer noopener'>
-					<FaLinkedinIn className='text-xl text-navy hover:text-darkpink hover:scale-110' />
+					<FaLinkedinIn className='text-xl text-powder hover:text-sunflower hover:scale-110' />
 				</Link>
 			</div>
 		</div>
