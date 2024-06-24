@@ -18,8 +18,8 @@ const uid = () => crypto.randomUUID();
 
 const siteData = {
 	main: {
-		title: 'Zackaria Slimane - Software Developer | React | Golang | Nodejs | DevOps & Cloud',
-		name: 'Zackaria Slimane',
+		title: 'Zakaria Slimane - Software Developer | React | Golang | Nodejs | DevOps & Cloud',
+		name: 'Zakaria Slimane',
 		email: 'slzackaria@gmail.com',
 		logo: zs,
 	},

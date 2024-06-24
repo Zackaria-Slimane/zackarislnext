@@ -24,21 +24,21 @@ export default function App({ Component, pageProps }) {
 				<meta name='og:image' content='/zs.png' />
 				<meta
 					name='og:title'
-					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
-				<meta name='twitter:title' content='Zackaria SLIMANE - Software Developer' />
+				<meta name='twitter:title' content='Zakaria SLIMANE - Software Developer' />
 				<meta
 					name='og:description'
-					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
 				<meta
 					name='description'
-					content='Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
 				/>
 				<link rel='apple-touch-icon' href='/apple-touch-icon.png' />
 				<link rel='manifest' href='/manifest.json' />
 
-				<title>Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
+				<title>Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
 			</Head>
 
 			<main className='h-auto sm:min-h-screen text-white bg-slate-900 duration-500 ease-in-out'>
