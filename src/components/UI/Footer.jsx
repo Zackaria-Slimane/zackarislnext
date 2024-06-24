@@ -21,7 +21,7 @@ export function Footer() {
 					</div>
 				</div>
 				<div className='mt-2 text-sm text-right text-powder'>
-					© {currentYear} <span className='text-sunflower mx-1'>ZS</span>
+					© {currentYear} <span className='text-sunflower mx-1'>Zakaria Slimane</span>
 				</div>
 			</div>
 		</footer>

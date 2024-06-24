@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { motion } from "framer-motion";
-import Section from "./Section";
-import stacks from "../../data/stackStore";
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import Section from './Section';
+import stacks from '../../data/stackStore';
 
 export function TechStack() {
 	return (
@@ -15,7 +15,7 @@ export function TechStack() {
 				{stacks.map(({ id, image, title }) => (
 					<div key={id} className='flex flex-col items-center justify-center align-middle'>
 						<div
-							className='flex flex-col items-center justify-center object-cover w-24 h-24 p-5 duration-300 ease-in-out bg-white rounded-lg shadow-mg'
+							className='flex flex-col items-center justify-center object-cover w-24 h-24 p-5 duration-300 ease-in-out bg-powder rounded-lg shadow-mg'
 							role='img'>
 							<Image
 								width='56'
@@ -23,7 +23,7 @@ export function TechStack() {
 								src={image}
 								srcSet={image}
 								alt={title}
-								className='object-contain w-36 h-36 md:h-44 md:w-44 hover:animate-bounce'
+								className='object-contain w-36 h-36 md:h-44 md:w-44 hover:scale-105'
 							/>
 						</div>
 						<p className='mt-2 text-center'>{title}</p>
