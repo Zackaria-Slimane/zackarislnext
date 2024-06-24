@@ -1,8 +1,8 @@
-import { Switch } from "@headlessui/react";
+import { Switch } from '@headlessui/react';
 
 const Toggle = ({ ...props }) => {
 	const { checked, onChange } = props;
-	let text = checked ? "Only Featured projects" : "All projects";
+	let text = checked ? 'Only Featured projects' : 'All projects';
 
 	return (
 		<Switch.Group>
@@ -12,11 +12,11 @@ const Toggle = ({ ...props }) => {
 					checked={checked}
 					onChange={onChange}
 					className={`${
-						checked ? "bg-darkpink" : "bg-peach"
+						checked ? 'bg-sunflower' : 'bg-coral'
 					} relative inline-flex h-6 w-11 items-center rounded-full transition-colors`}>
 					<span
 						className={`${
-							checked ? "translate-x-6" : "translate-x-1"
+							checked ? 'translate-x-6' : 'translate-x-1'
 						} inline-block h-4 w-4 transform rounded-full bg-white transition-transform`}
 					/>
 				</Switch>

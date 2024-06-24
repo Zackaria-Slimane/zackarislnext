@@ -16,15 +16,15 @@ const Articles = () => {
 					<meta name='keywords' content={currentSEO.keywords.join(', ')} />
 				</Helmet>
 				<>
-					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-white'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] px-6 bg-slate-900'>
 						<div className='flex items-center justify-center'>
 							<div className='flex flex-col items-center p-4 sm:items-start'>
-								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
+								<div className='text-3xl sm:text-4xl text-powder text-center font-jetBrain font-bold w-full my-6 text-clip'>
 									{siteData.articlesPage.title}
 								</div>
 
 								<motion.div
-									className='w-full py-2 text-base text-navy'
+									className='w-full py-2 text-base text-powder text-center'
 									initial={{ opacity: 0, x: -200 }}
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}

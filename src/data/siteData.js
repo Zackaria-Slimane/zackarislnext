@@ -25,7 +25,7 @@ const siteData = {
 	},
 	socials: {
 		github: 'https://github.com/Zackaria-Slimane',
-		linkedin: 'https://www.linkedin.com/in/zackaria-slimane/',
+		linkedin: 'https://www.linkedin.com/in/zakaria-slimane/',
 		resume: 'https://drive.google.com/file/d/1qLGLyKX1MzV2b9wDQ93ElsdXXMjOPrpH/view?usp=sharing',
 	},
 
@@ -45,10 +45,10 @@ const siteData = {
 	aboutPage: {
 		title: 'Crafting Digital Experiences with Passion and Precision',
 		description:
-			'With a strong foundation in JavaScript, Golang, and a modern touch with React, I craft user-centric websites that seamlessly blend functionality and aesthetics. My focus on DevOps and Cloud Engineering enhances my ability to create scalable and efficient solutions.',
-		why: "From the outset of my web development journey, I've been captivated by the transformative power of technology. Thriving on the thrill of crafting dynamic and user-friendly interfaces, I integrate DevOps practices to ensure seamless deployment and operations.",
+			'With a strong foundation in JavaScript, Golang, and a modern touch with React, I craft user-centric websites that seamlessly blend functionality and aesthetics. My focus on DevOps and Cloud Engineering enhances my ability to create scalable solutions.',
+		why: "Aside my web development skills, I've been captivated by the transformative power of DevOps practices to ensure seamless deployment and operations.",
 		learning:
-			"Continuous learning is at the heart of what I do, ensuring that I'm always at the forefront of industry trends and best practices, especially in DevOps, CI/CD automation, and AWS technologies.",
+			"Continuous learning is at the heart of what I do, ensuring that I'm always up to date with the latest advancements of industry trends and best practices, especially in DevOps, CI/CD automation, and AWS technologies.",
 		skills:
 			"My toolbox isn't limited to just JavaScript and React & Golang. I'm also well-versed in WordPress, Shopify, Node.js, and adept at integrating these technologies with DevOps and AWS for robust solutions.",
 	},

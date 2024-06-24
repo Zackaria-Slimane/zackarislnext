@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
 				<title>Zackaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
 			</Head>
 
-			<main className='h-auto sm:min-h-screen text-navy bg-white dark:bg-[#14274E] to-bg-[#050505] dark:text-white duration-500 ease-in-out'>
+			<main className='h-auto sm:min-h-screen text-white bg-slate-900 duration-500 ease-in-out'>
 				<SpeedInsights />
 				<Analytics />
 				<ToTop />
