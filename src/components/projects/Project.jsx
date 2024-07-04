@@ -20,10 +20,10 @@ export function Project(props) {
 						</div>
 						{/* image */}
 					</div>
-					<div className='py-4 text-base font-semibold text-start font-jetBrain text-navy'>
+					<div className='py-4 text-base font-semibold text-start font-jetBrain text-slate'>
 						{title}
 					</div>
-					<div className='text-navy text-start font-heebo text-clip'>{description}</div>
+					<div className='text-slate text-start font-heebo text-clip'>{description}</div>
 					<div className='my-4'>
 						<Image
 							width='300'
@@ -34,13 +34,13 @@ export function Project(props) {
 							className='rounded-lg max-h-[180px] min-h-[150px] object-cover'
 						/>
 					</div>
-					<div className='flex items-end justify-evenly pt-4 text-sm hover:text-navy hover:scale-105'>
-						<div className='pl-4 font-semibold underline text-start text-navy hover:decoration-wavy decoration-2 decoration-navy'>
+					<div className='flex items-end justify-evenly pt-4 text-sm hover:text-sunflower hover:scale-105'>
+						<div className='pl-4 font-semibold underline text-start text-slate hover:decoration-wavy decoration-2 decoration-sunflower'>
 							{' '}
 							{linkText}{' '}
 						</div>
-						<div className='flex items-center justify-start pt-4 text-sm hover:text-navy hover:scale-105'>
-							<div className='pl-4 font-semibold underline text-start text-navy hover:decoration-wavy decoration-2 decoration-navy'>
+						<div className='flex items-center justify-start pt-4 text-sm hover:text-sunflower hover:scale-105'>
+							<div className='pl-4 font-semibold underline text-start text-slate hover:decoration-wavy decoration-2 decoration-sunflower'>
 								{' '}
 								{linkText}{' '}
 							</div>

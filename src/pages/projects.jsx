@@ -25,7 +25,7 @@ const Projects = () => {
 								<div className='text-center text-3xl sm:text-4xl text-powder font-jetBrain font-bold w-full my-6 text-clip'>
 									Problem Solving one
 									<TypeAnimation
-										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-navy'
+										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-sunflower text-slate'
 										sequence={['Line', 1500, 'Idea', 1500]}
 										speed={30}
 										wrapper='span'

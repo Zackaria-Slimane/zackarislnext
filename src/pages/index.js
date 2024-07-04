@@ -34,7 +34,7 @@ const Homepage = () => {
 										experiences
 										<br className='sm:hidden' /> with
 										<TypeAnimation
-											className='px-2 py-0 ml-2 text-2xl sm:text-3xl rounded-sm bg-navy'
+											className='px-2 py-0 ml-2 text-2xl text-slate sm:text-3xl rounded-sm bg-sunflower'
 											sequence={[
 												'React',
 												1500,

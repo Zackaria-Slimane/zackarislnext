@@ -27,7 +27,7 @@ const About = () => {
 								<div className='text-center text-3xl sm:text-4xl text-powder font-jetBrain font-bold w-full my-6 text-clip'>
 									Crafting Seamless Digital Experiences with
 									<TypeAnimation
-										className='bg-navy rounded-sm py-0 px-2 ml-2 text-3xl'
+										className='bg-sunflower text-slate rounded-sm py-0 px-2 ml-2 text-3xl'
 										sequence={['Passion', 1500, 'Precision', 1500]}
 										speed={30}
 										wrapper='span'

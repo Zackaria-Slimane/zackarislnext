@@ -32,6 +32,7 @@ module.exports = {
 				navy: '#102C57',
 				powder: '#FAFFFD',
 				coral: '#FA824C',
+				slate: '#28282B',
 			},
 		},
 	},
