@@ -65,7 +65,7 @@ const Contact = () => {
 								<div className='text-3xl sm:text-4xl text-powder text-center font-jetBrain font-bold w-full my-6 text-clip'>
 									Let&lsquo;s Turn your Ideas into reality with
 									<TypeAnimation
-										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-navy'
+										className='px-2 py-0 ml-2 text-3xl rounded-sm bg-sunflower text-slate'
 										sequence={['Owrnership.', 1500, 'Collaboration.', 1500]}
 										speed={30}
 										wrapper='span'
@@ -129,8 +129,8 @@ const Contact = () => {
 									</div>
 								</div>
 								<div className='flex items-center justify-center'>
-									<button className='flex items-center justify-center py-2 mt-8 transition-colors border-2 rounded-lg shadow-lg cursor-pointer group hover:scale-105 hover:border-transparent border-navy bg-navy text-powder'>
-										<p className='mx-2 text-sm font-light md:text-lg text-cream'>Send</p>
+									<button className='flex items-center justify-center py-2 mt-8 transition-colors border-2 rounded-lg shadow-lg cursor-pointer group hover:scale-105 hover:border-transparent border-sunflower bg-sunflower text-slate'>
+										<p className='mx-2 text-sm font-light md:text-lg text-slate'>Send</p>
 										<span className='animate-pulse'>
 											<FaArrowRightFromBracket className='mx-4 font-semibold text-md' />
 										</span>
