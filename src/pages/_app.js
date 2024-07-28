@@ -24,24 +24,24 @@ export default function App({ Component, pageProps }) {
 				<meta name='og:image' content='/zs.png' />
 				<meta
 					name='og:title'
-					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | JavaScript | Golang | DevOps & Cloud'
 				/>
 				<meta name='twitter:title' content='Zakaria SLIMANE - Software Developer' />
 				<meta
 					name='og:description'
-					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | JavaScript | Golang | DevOps & Cloud'
 				/>
 				<meta
 					name='description'
-					content='Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud'
+					content='Zakaria Slimane - Software Developer | JavaScript | Golang | DevOps & Cloud'
 				/>
 				<link rel='apple-touch-icon' href='/apple-touch-icon.png' />
 				<link rel='manifest' href='/manifest.json' />
 
-				<title>Zakaria Slimane - Software Developer | React | Golang | Vue | DevOps & Cloud</title>
+				<title>Zakaria Slimane - Software Developer | JavaScript | Golang | DevOps & Cloud</title>
 			</Head>
 
-			<main className='h-auto sm:min-h-screen text-white bg-slate duration-500 ease-in-out'>
+			<main className='h-auto sm:min-h-screen text-white bg-[#1b2c3a] duration-500 ease-in-out'>
 				<SpeedInsights />
 				<Analytics />
 				<ToTop />
